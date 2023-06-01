@@ -15,7 +15,10 @@ public class Calculadora{
         dato*=termino;
     }
     public void Division(double termino){
-        dato/=termino;
+        if (termino!=0)
+        {
+            dato/=termino;
+        }
     }
     public void Limpiar(){
         dato=0;
